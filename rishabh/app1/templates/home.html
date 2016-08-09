@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+</head>
+
+<body bgcolor="#307CB4">
+
+
+{% extends "base.html" %}
+{% block title %}Welcome to Django{% endblock %}
+{% block head %}Welcome to Django{% endblock %}
+{% block content %}
+
+    <h1>Greetings to the world</h1>
+                <p>Hello, world!</p>
+    <p>Welcome {{ user.username }} !!!</p>
+    <a href="/logout/">Logout</a>
+
+{% endblock %}
+</body>
+</html>
